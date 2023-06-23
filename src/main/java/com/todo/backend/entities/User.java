@@ -5,12 +5,11 @@ import lombok.*;
 import java.io.Serializable;
 
 
-@Data
+@Entity
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "user")
-
+@Table(name = "USERS")
 public class User implements Serializable {
 
     @Id
